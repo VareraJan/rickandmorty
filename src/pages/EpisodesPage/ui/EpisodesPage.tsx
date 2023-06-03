@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 const EpisodesPage = () => {
+  const {t} = useTranslation('episodes')
   return (
     <div>
-      <h1>EpisodesPage</h1>
+      <h1>{t('Эпизоды')}</h1>
     </div>
   );
 };

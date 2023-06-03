@@ -1,3 +1,4 @@
+import { LangSwitcher } from "@/widgets/LangSwitcher";
 import { Suspense } from "react";
 import { classNames } from "../shared/lib/classNames/classNames";
 import { useTheme } from "../shared/lib/hooks/useTheme/useTheme";
@@ -9,6 +10,7 @@ export const App = () => {
   return (
     <div className={classNames("app", {}, [theme])}>
       <Suspense fallback="">
+        <LangSwitcher />
         <h2>APP 1</h2>
         <AppRouter />
       </Suspense>

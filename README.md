@@ -3,7 +3,7 @@
 На проекте применяется архитектура [FSD](https://feature-sliced.design/ru/)
 
 
-Данные с публичного API https://rickandmortyapi.com/
+Данные бэкенда с публичного API [rickandmortyapi](https://rickandmortyapi.com/)
 
 
 # Getting Started with Create React App
