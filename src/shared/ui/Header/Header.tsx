@@ -1,5 +1,15 @@
+import { classNames } from "@/shared/lib/classNames/classNames";
 import cls from "./Header.module.scss";
 
-export const Header = () => {
-  return <div className={cls.header}>The Rick and Morty</div>;
+interface HeaderProps {
+  className?: string;
+}
+
+export const Header = (props: HeaderProps) => {
+  const { className } = props;
+  return (
+    <div className={classNames(cls.header, {}, [className])}>
+      The Rick and Morty
+    </div>
+  );
 };

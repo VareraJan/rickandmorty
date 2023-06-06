@@ -14,12 +14,12 @@ export const ThemeSwitcher = (props: ThemeSwitcherProps) => {
 
   return (
     <Button
-      theme={ButtonTheme.CLEAR}
+      theme={ButtonTheme.BACKGROUND_INVERTED}
       className={classNames(cls.themeSwitcher, {}, [className])}
       onClick={toggleTheme}
     >
       {/* заменить на иконки, логика если тема темная рисуем темную иконку, и наоборот */}
-      TOGGLE
+      TOGGLE THEME
     </Button>
   );
 };
