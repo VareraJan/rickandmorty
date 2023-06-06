@@ -2,5 +2,11 @@
     "Перевод": "Translate",
     "Главная": "MainPage",
     "Страница не найдена": "Not Found Page",
-    "Язык": "English"
+    "Язык": "English",
+    "link": {
+        "Главная": "Home",
+        "Персонажи": "Characters",
+        "Эпизоды": "Episodes",
+        "Локации": "Locations"
+      }
 }

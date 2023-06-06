@@ -1,5 +1,3 @@
-import { LangSwitcher } from "@/features/LangSwitcher";
-import { ThemeSwitcher } from "@/features/ThemeSwitcher";
 import { Header } from "@/shared/ui/Header";
 import { AppLayout } from "@/shared/ui/Layout";
 import { Navbar } from "@/widgets/Navbar";
@@ -17,7 +15,7 @@ export const App = () => {
         <Suspense fallback="">
           <Header />
           <Navbar />
-          
+
           <h2>APP 1</h2>
           <AppRouter />
         </Suspense>
