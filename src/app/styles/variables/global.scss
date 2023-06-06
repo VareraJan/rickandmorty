@@ -1,16 +1,25 @@
 :root {
-    --font-family-main: Consolas, "Times New Roman", Serif;
+    --font-family-main: Roboto, "Times New Roman", Serif;
+    --font-family-secondary: Mouse Memoirs, "Times New Roman", Serif;
 
     // m
     --font-size-m: 16px;
     --font-line-m: 24px;
     --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+    --font-m-secondary: var(--font-size-m) / var(--font-line-m) var(--font-family-secondary);
 
     // l
     --font-size-l: 24px;
     --font-line-l: 32px;
     --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+    --font-l-secondary: var(--font-size-l) / var(--font-line-l) var(--font-family-secondary);
+
+    // xxl
+    --font-size-xxl: 74px;
+    --font-line-xxl: 82px;
+    --font-xxl: var(--font-size-xxl) / var(--font-line-xxl) var(--font-family-main);
+    --font-xxl-secondary: var(--font-size-xxl) / var(--font-line-xxl) var(--font-family-secondary);
 
     // Размеры 
-    --navbar-height: 50px;
+    --navbar-height: 150px;
 }
