@@ -2,5 +2,13 @@
     "Перевод": "Translate",
     "Главная": "MainPage",
     "Страница не найдена": "Not Found Page",
-    "Язык": "English"
+    "Язык": "Eng",
+    "link": {
+      "Главная": "Home",
+      "Персонажи": "Characters",
+      "Эпизоды": "Episodes",
+      "Локации": "Locations"
+    },
+    "темная тема": "enable dark theme",
+    "светлая тема": "enable light theme"
 }

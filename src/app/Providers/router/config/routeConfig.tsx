@@ -1,5 +1,3 @@
-import { RouteProps } from "react-router-dom";
-
 import {
   AppRoutes,
   getRouteCharacters,
@@ -18,6 +16,7 @@ import { EpisodesPage } from "@/pages/EpisodesPage";
 import { LocationsPage } from "@/pages/LocationsPage";
 import { EpisodesDetailsPage } from "@/pages/EpisodesDetailsPage";
 import { LocationsDetailsPage } from "@/pages/LocationsDetailsPage";
+import { RouteProps } from "react-router-dom";
 
 export const routeConfig: Record<AppRoutes, RouteProps> = {
   [AppRoutes.MAIN]: {
