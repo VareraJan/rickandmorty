@@ -17,7 +17,7 @@ export const Navbar = (props: NavbarProps) => {
   console.log("navbarItems ", navbarItems);
 
   const itemsList = useMemo(
-    () => navbarItems.map((item) => <NavbarItem key={item.text} item={item} />),
+    () => navbarItems.map((item) => <NavbarItem className={cls.link} key={item.text} item={item} />),
     [navbarItems]
   );
 
