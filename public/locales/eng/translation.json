@@ -10,5 +10,6 @@
       "Локации": "Locations"
     },
     "темная тема": "enable dark theme",
-    "светлая тема": "enable light theme"
+    "светлая тема": "enable light theme",
+    "Ошибка при загрузке": "An error occurred while loading data"
 }

@@ -4,7 +4,8 @@ import { App } from "./app/App";
 import { ThemeProvider } from "./app/Providers/ThemeProvider";
 import { BrowserRouter } from "react-router-dom";
 
-import './shared/config/i18n/i18n'
+import "./shared/config/i18n/i18n";
+import { StoreProvider } from "./app/Providers/StoreProvider";
 
 const container = document.getElementById("root");
 
@@ -18,8 +19,10 @@ const root = ReactDOM.createRoot(container);
 
 root.render(
   <BrowserRouter>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
+    <StoreProvider>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </StoreProvider>
   </BrowserRouter>
 );
