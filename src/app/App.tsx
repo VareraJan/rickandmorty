@@ -15,8 +15,6 @@ export const App = () => {
         <Suspense fallback="">
           <Header />
           <Navbar />
-
-          <h2>APP 1</h2>
           <AppRouter />
         </Suspense>
       </div>
