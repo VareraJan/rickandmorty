@@ -11,5 +11,7 @@
     },
     "темная тема": "enable dark theme",
     "светлая тема": "enable light theme",
-    "Ошибка при загрузке": "An error occurred while loading data"
+    "Ошибка при загрузке": "An error occurred while loading data",
+    "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+    "Обновить страницу": "Refresh the page"
 }

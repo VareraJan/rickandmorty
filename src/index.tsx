@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import "./shared/config/i18n/i18n";
 import { StoreProvider } from "./app/Providers/StoreProvider";
+import { ErrorBoundary } from "./app/Providers/ErrorBoundary";
 
 const container = document.getElementById("root");
 
@@ -20,9 +21,11 @@ const root = ReactDOM.createRoot(container);
 root.render(
   <BrowserRouter>
     <StoreProvider>
-      <ThemeProvider>
-        <App />
-      </ThemeProvider>
+      <ErrorBoundary>
+        <ThemeProvider>
+          <App />
+        </ThemeProvider>
+      </ErrorBoundary>
     </StoreProvider>
   </BrowserRouter>
 );
