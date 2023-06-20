@@ -1,59 +1,75 @@
 {
-  "name": "rickandmorty",
-  "version": "0.1.0",
-  "private": true,
-  "author": "Zhuravlev V.V.",
-  "license": "ISC",
-  "dependencies": {
-    "@craco/craco": "^7.1.0",
-    "@reduxjs/toolkit": "^1.9.5",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.31",
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
-    "i18next": "^22.5.0",
-    "i18next-browser-languagedetector": "^7.0.2",
-    "i18next-http-backend": "^2.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^12.3.1",
-    "react-redux": "^8.0.7",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "craco start",
-    "start:cra": "react-scripts start PORT=3001",
-    "build": "craco build",
-    "test": "craco test"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/react-redux": "^7.1.25",
-    "@types/react-router-dom": "^5.3.3",
-    "sass": "^1.62.1"
-  },
-  "cracoConfig": "craco.config.js"
+    "name": "rickandmorty",
+    "version": "0.1.0",
+    "private": true,
+    "author": "Zhuravlev V.V.",
+    "license": "ISC",
+    "dependencies": {
+        "@craco/craco": "^7.1.0",
+        "@reduxjs/toolkit": "^1.9.5",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.18.31",
+        "@types/react": "^18.2.6",
+        "@types/react-dom": "^18.2.4",
+        "i18next": "^22.5.0",
+        "i18next-browser-languagedetector": "^7.0.2",
+        "i18next-http-backend": "^2.2.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^12.3.1",
+        "react-redux": "^8.0.7",
+        "react-router-dom": "^6.2.1",
+        "react-scripts": "5.0.1",
+        "typescript": "^4.9.5",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "craco start",
+        "start:cra": "react-scripts start PORT=3001",
+        "build": "craco build",
+        "test": "craco test",
+        "lint:ts": "npx eslint \"**/*.{ts,tsx}\"",
+        "lint:ts:fix": "npx eslint \"**/*.{ts,tsx}\" --fix"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/react-redux": "^7.1.25",
+        "@types/react-router-dom": "^5.3.3",
+        "@typescript-eslint/parser": "^5.60.0",
+        "eslint": "^8.43.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-standard-with-typescript": "^35.0.0",
+        "eslint-plugin-eslint-plugin": "^5.1.0",
+        "eslint-plugin-i18next": "^6.0.3",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-storybook": "^0.6.12",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "eslint-plugin-varera-jan-plugin": "^0.0.12",
+        "prettier": "2.8.8",
+        "sass": "^1.62.1"
+    },
+    "cracoConfig": "craco.config.js"
 }
