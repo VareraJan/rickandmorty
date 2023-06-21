@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 
 import { classNames } from '../shared/lib/classNames/classNames';
 
-import { AppRouter } from './Providers/router';
+import { AppRouter } from './providers/router';
 
 import { useTheme } from '@/shared/lib/hooks/useTheme/useTheme';
 import { Header } from '@/shared/ui/Header';

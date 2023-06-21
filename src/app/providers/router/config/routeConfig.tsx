@@ -1,3 +1,13 @@
+import { type RouteProps } from "react-router-dom";
+
+import { CharactersDetailsPage } from "@/pages/CharactersDetailsPage";
+import { CharactersPage } from "@/pages/CharactersPage";
+import { EpisodesDetailsPage } from "@/pages/EpisodesDetailsPage";
+import { EpisodesPage } from "@/pages/EpisodesPage";
+import { LocationsDetailsPage } from "@/pages/LocationsDetailsPage";
+import { LocationsPage } from "@/pages/LocationsPage";
+import { MainPage } from "@/pages/MainPage";
+import { NotFoundPage } from "@/pages/NotFoundPage";
 import {
   AppRoutes,
   getRouteCharacters,
@@ -8,15 +18,7 @@ import {
   getRouteLocationsDetails,
   getRouteMain,
 } from "@/shared/const/router";
-import { NotFoundPage } from "@/pages/NotFoundPage";
-import { CharactersPage } from "@/pages/CharactersPage";
-import { CharactersDetailsPage } from "@/pages/CharactersDetailsPage";
-import { MainPage } from "@/pages/MainPage";
-import { EpisodesPage } from "@/pages/EpisodesPage";
-import { LocationsPage } from "@/pages/LocationsPage";
-import { EpisodesDetailsPage } from "@/pages/EpisodesDetailsPage";
-import { LocationsDetailsPage } from "@/pages/LocationsDetailsPage";
-import { RouteProps } from "react-router-dom";
+
 
 export const routeConfig: Record<AppRoutes, RouteProps> = {
   [AppRoutes.MAIN]: {

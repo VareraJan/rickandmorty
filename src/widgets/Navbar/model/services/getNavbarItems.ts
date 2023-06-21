@@ -1,5 +1,6 @@
+import { type NavbarItemType } from "../types/navbar";
+
 import { getRouteCharacters, getRouteEpisodes, getRouteLocations, getRouteMain } from "@/shared/const/router";
-import { NavbarItemType } from "../types/navbar";
 
 export const getNavbarItems = () => {
     const appLinks: NavbarItemType[] = [
