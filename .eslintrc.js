@@ -2,6 +2,7 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        jest: true,
     },
     extends: [
         'eslint:recommended',
@@ -141,5 +142,6 @@ module.exports = {
             },
         ],
         'react/jsx-max-props-per-line': ['error', { maximum: 4 }],
+        '@typescript-eslint/explicit-function-return-type': 'off',
     },
 };
