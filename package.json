@@ -53,16 +53,22 @@
         "eslint-plugin-storybook": "^0.6.12",
         "eslint-plugin-unused-imports": "^2.0.0",
         "eslint-plugin-varera-jan-plugin": "^0.0.12",
+        "husky": "^8.0.0",
+        "lint-staged": "^13.2.2",
         "prettier": "2.8.8",
         "sass": "^1.62.1",
         "stylelint": "^15.8.0",
-        "stylelint-config-standard-scss": "^9.0.0",
-        "husky": "^8.0.0"
+        "stylelint-config-standard-scss": "^9.0.0"
     },
     "eslintConfig": {
         "extends": [
             "react-app",
             "react-app/jest"
+        ]
+    },
+    "lint-staged": {
+        "**/*.{ts,tsx}": [
+            "eslint"
         ]
     },
     "browserslist": {
