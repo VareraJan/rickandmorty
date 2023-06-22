@@ -1,26 +1,31 @@
-import { type NavbarItemType } from "../types/navbar";
+import { type NavbarItemType } from '../types/navbar';
 
-import { getRouteCharacters, getRouteEpisodes, getRouteLocations, getRouteMain } from "@/shared/const/router";
+import {
+    getRouteCharacters,
+    getRouteEpisodes,
+    getRouteLocations,
+    getRouteMain,
+} from '@/shared/const/router';
 
 export const getNavbarItems = () => {
     const appLinks: NavbarItemType[] = [
         {
-            text: "Главная",
+            text: 'Главная',
             path: getRouteMain(),
         },
         {
-            text: "Персонажи",
+            text: 'Персонажи',
             path: getRouteCharacters(),
         },
         {
-            text: "Локации",
+            text: 'Локации',
             path: getRouteLocations(),
         },
         {
-            text: "Эпизоды",
+            text: 'Эпизоды',
             path: getRouteEpisodes(),
-        }
+        },
     ];
-    
-    return appLinks
-}
+
+    return appLinks;
+};

@@ -14,6 +14,6 @@ export const getRouteMain = () => '/';
 export const getRouteCharacters = () => '/characters';
 export const getRouteCharactersDetails = (id: string) => `/characters/${id}`;
 export const getRouteLocations = () => '/locations';
-export const getRouteLocationsDetails = (id:string) => `/locations/${id}`;
+export const getRouteLocationsDetails = (id: string) => `/locations/${id}`;
 export const getRouteEpisodes = () => '/episodes';
 export const getRouteEpisodesDetails = (id: string) => `/episodes/${id}`;

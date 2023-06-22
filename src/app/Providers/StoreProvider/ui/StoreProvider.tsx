@@ -1,3 +1,3 @@
 export const StoreProvider = () => {
-    return null
-}
+    return null;
+};
