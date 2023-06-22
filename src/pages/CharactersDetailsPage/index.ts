@@ -1,1 +1,1 @@
-export { CharactersDetailsPageAsync as CharactersDetailsPage } from "./ui/CharactersDetailsPage.async";
+export { CharactersDetailsPageAsync as CharactersDetailsPage } from './ui/CharactersDetailsPage.async';
