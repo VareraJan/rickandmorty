@@ -9,6 +9,7 @@
         "start:cra": "react-scripts start PORT=3001",
         "build": "craco build",
         "test": "craco test",
+        "prettier": "npx prettier --write **/*.{ts,tsx,json}",
         "lint:ts": "npx eslint \"**/*.{ts,tsx}\"",
         "lint:ts:fix": "npx eslint \"**/*.{ts,tsx}\" --fix",
         "lint:scss": "npx stylelint \"**/*.scss\"",
@@ -53,11 +54,12 @@
         "eslint-plugin-storybook": "^0.6.12",
         "eslint-plugin-unused-imports": "^2.0.0",
         "eslint-plugin-varera-jan-plugin": "^0.0.12",
+        "husky": "^8.0.0",
+        "lint-staged": "^13.2.2",
         "prettier": "2.8.8",
         "sass": "^1.62.1",
         "stylelint": "^15.8.0",
-        "stylelint-config-standard-scss": "^9.0.0",
-        "husky": "^8.0.0"
+        "stylelint-config-standard-scss": "^9.0.0"
     },
     "eslintConfig": {
         "extends": [
@@ -77,5 +79,11 @@
             "last 1 safari version"
         ]
     },
-    "cracoConfig": "craco.config.js"
+    "cracoConfig": "craco.config.js",
+    "lint-staged": {
+        "**/*.{ts,tsx}": [
+            "prettier --list-different",
+            "eslint"
+        ]
+    }
 }

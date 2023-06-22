@@ -1,1 +1,1 @@
-export { EpisodesDetailsPageAsync as EpisodesDetailsPage } from "./ui/EpisodesDetailsPage.async";
+export { EpisodesDetailsPageAsync as EpisodesDetailsPage } from './ui/EpisodesDetailsPage.async';

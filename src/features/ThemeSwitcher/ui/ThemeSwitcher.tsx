@@ -2,9 +2,10 @@ import { useTranslation } from 'react-i18next';
 
 import cls from './ThemeSwitcher.module.scss';
 
-import { Theme } from '@/shared/const/theme';
+// import ThemeIcon from '@/shared/assets/icons/dark_theme.svg';
 // @ts-expect-error
-import { ReactElement as ThemeIcon } from '@/shared/icons/dark_theme.svg';
+import { ReactElement as ThemeIcon } from '@/shared/assets/icons/dark_theme.svg';
+import { Theme } from '@/shared/const/theme';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import { useTheme } from '@/shared/lib/hooks/useTheme/useTheme';
 import { Button } from '@/shared/ui/Button';
