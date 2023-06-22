@@ -12,7 +12,8 @@
         "lint:ts": "npx eslint \"**/*.{ts,tsx}\"",
         "lint:ts:fix": "npx eslint \"**/*.{ts,tsx}\" --fix",
         "lint:scss": "npx stylelint \"**/*.scss\"",
-        "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix"
+        "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
+        "prepare": "husky install"
     },
     "dependencies": {
         "@craco/craco": "^7.1.0",
@@ -55,7 +56,8 @@
         "prettier": "2.8.8",
         "sass": "^1.62.1",
         "stylelint": "^15.8.0",
-        "stylelint-config-standard-scss": "^9.0.0"
+        "stylelint-config-standard-scss": "^9.0.0",
+        "husky": "^8.0.0"
     },
     "eslintConfig": {
         "extends": [

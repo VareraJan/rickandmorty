@@ -143,5 +143,9 @@ module.exports = {
         ],
         'react/jsx-max-props-per-line': ['error', { maximum: 4 }],
         '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/restrict-template-expressions': 'off',
+        'react/display-name': 'off',
+        '@typescript-eslint/strict-boolean-expressions': 'off',
     },
 };

@@ -1,10 +1,13 @@
+import { useMemo } from "react";
+
+import { getNavbarItems } from "../model/services/getNavbarItems";
+
+import cls from "./Navbar.module.scss";
+import { NavbarItem } from "./NavbarItem/NavbarItem";
+
 import { LangSwitcher } from "@/features/LangSwitcher";
 import { ThemeSwitcher } from "@/features/ThemeSwitcher";
 import { classNames } from "@/shared/lib/classNames/classNames";
-import { useMemo } from "react";
-import { getNavbarItems } from "../model/services/getNavbarItems";
-import cls from "./Navbar.module.scss";
-import { NavbarItem } from "./NavbarItem/NavbarItem";
 
 interface NavbarProps {
   className?: string;

@@ -1,8 +1,11 @@
-import { classNames } from "@/shared/lib/classNames/classNames";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { NavbarItemType } from "../../model/types/navbar";
+
+import { type NavbarItemType } from "../../model/types/navbar";
+
 import cls from "./NavbarItem.module.scss";
+
+import { classNames } from "@/shared/lib/classNames/classNames";
 
 interface NavbarItemProps {
   className?: string;
