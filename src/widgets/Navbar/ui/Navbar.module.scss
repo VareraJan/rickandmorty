@@ -1,0 +1,22 @@
+.navbar {
+    height: var(--navbar-height);
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    background-color: var(--inverted-bg-color);
+    color: var(--inverted-primary-color);
+}
+
+.switchers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    margin-left: 10px;
+}

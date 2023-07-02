@@ -1,0 +1,27 @@
+@import "reset";
+@import "variables/global";
+@import "themes/dark";
+@import "themes/light";
+
+.app {
+    font: var(--font-m);
+    background: var(--bg-color);
+    color: var(--primary-color);
+    width: 900px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Mouse Memoirs";
+    src: url('../../shared/fonts/Mouse_Memoirs/MouseMemoirs-Regular.ttf');
+}
+
+@font-face {
+    font-family: Brahms;
+    src: url('../../shared/fonts/Brahms_Gotisch_Cyrillic/BrahmsGotischCyr.otf');
+    font-weight: normal;
+    font-style: normal;
+}
