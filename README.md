@@ -5,6 +5,7 @@
 
 Данные бэкенда с публичного API [rickandmortyapi](https://rickandmortyapi.com/)
 
+Проект создан что бы развернуть базовый шаблон с линтерами, интернационализацией и темами.
 
 # Getting Started with Create React App
 
